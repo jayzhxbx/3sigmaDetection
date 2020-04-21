@@ -13,6 +13,7 @@ To protect privacy, I randomly generated some battery cell voltage data.
 run AnomalyDetection
 
 ## Detail
+```scala
 def nSigmaOutlierDetect(raw_data: Array[Double]): Vec[Double] = {
         // nSigma (default n=3)
         val n = 3
@@ -47,3 +48,4 @@ def nSigmaOutlierDetect(raw_data: Array[Double]): Vec[Double] = {
         }
         fault_matrix
     }
+```
